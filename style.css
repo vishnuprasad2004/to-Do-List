@@ -1,0 +1,135 @@
+body {
+    margin: 0px;
+    background: linear-gradient(45deg,#00273f,#074870);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#navBar {
+    display: flex;
+    overflow: hidden;
+    background-color:rgb(255, 255, 255);
+    color:#000000;
+    padding: 10px;
+    font-family:Helvetica, sans-serif;
+    box-shadow: 0px 0px 5px #000000;
+    
+}
+
+#gitHublink {
+    margin-left: auto;
+}
+
+footer {
+    background-color: aliceblue;
+    overflow: hidden;
+    top:10px;
+    text-align: center;
+    margin-top: 100%;
+    box-shadow: 0px 0px 5px #000000;
+    height: 50px;
+}
+
+#linkedinlink {
+    padding-left: 1%;
+}
+
+#container-wrap {
+    background:linear-gradient(45deg,#fffafa51,#fffafa14);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    border-radius: 4px;
+    box-shadow:0px 0px 10px #252525;
+    padding: 5px;
+    text-align: center;
+}
+
+#container {
+    text-align: left;
+    margin-top: 10px;
+}
+
+#util-container {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 10fr 1fr 1fr;
+}
+
+button {
+    background-color: #131a1e;
+    color:aliceblue;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    padding:5px;
+    border-radius:0.2em;
+    filter:drop-shadow(0px 3px 0px #dbd6ed)
+}
+
+
+button:active {
+    background-color: #dbd6ed;
+    filter: none;
+}
+
+button:hover {
+    background-color: #131a1e;
+    color:aliceblue;
+    border: none;
+    cursor: pointer;
+    padding:5px;
+    border-radius:0.2em;
+    transform: scale(0.95);
+
+}
+
+.item-container {
+    padding: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    color: #fffafa;
+    /* border: 1px solid rgb(244, 255, 251); */
+}
+
+.item-container:hover {
+    transform: scale(1.01);
+    transition: 100ms;
+    padding: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    color: #fffafa;
+    /* border: 1px solid rgb(244, 255, 251); */
+}
+
+.item-container:nth-child(odd) {
+    background-color: #00273fe4;
+    color: #fffafa;
+}
+
+#footer-text {
+    font-size: 15px;
+    color: rgb(118, 118, 118);
+}
+
+#textbox {
+    height: 25px;
+    font-family:Helvetica, sans-serif;
+}
+
+.svg {
+    height: 15px;
+    fill:white;
+
+}
+
+
